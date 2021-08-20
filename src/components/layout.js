@@ -5,7 +5,7 @@ const Layout = ({pageTitle, children}) => {
   return (
     <>
     <title>{pageTitle}</title>
-    <section>
+    <section style={{overflow : "hidden", padding : "0"}}>
         {children}
     </section>
     </>
