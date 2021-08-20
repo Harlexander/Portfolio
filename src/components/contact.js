@@ -15,7 +15,7 @@ const Contact = () => {
          data-sal-easing="ease-in"
          data-sal-duration="700">CONTACT</header>
         <div>
-        <p data-sal={salRight}
+        <p data-sal={"slide-right"}
          data-sal-delay="200"
          data-sal-easing="ease-in"
          data-sal-duration="700">Would you like to work with me? Awesome!</p>

@@ -3,11 +3,7 @@ import * as React from "react"
 import { FaBootstrap , FaCss3, FaSass, FaHtml5 , FaReact } from "react-icons/fa"
 
 const Project = () => {
-    let width
-    const isBrowser = () => typeof window !== "undefined"
-    isBrowser() && (width = window.innerWidth);
-    const [salRight, salLeft] = [width < 768 ? "slide-up" : "slide-right", width < 768 ? "slide-up" : "slide-left" ]
-  return (
+    return (
     <section className="project-page">
         <header
          data-sal="fade"
@@ -16,7 +12,7 @@ const Project = () => {
          data-sal-duration="700">PROJECTS</header>
         <article className="project">
             <div className="project-info"
-             data-sal={salRight}
+             data-sal="slide-right"
              data-sal-delay="100"
              data-sal-easing="ease-in"
              data-sal-duration="700">
@@ -29,7 +25,7 @@ const Project = () => {
                 
             </div>
             <div className="project-img"
-             data-sal={salLeft}
+             data-sal={"slide-left"}
              data-sal-delay="100"
              data-sal-easing="linear"
              data-sal-duration="500">
@@ -43,7 +39,7 @@ const Project = () => {
         </article>   
         <article className="project">
             <div className="project-info"
-            data-sal={salRight}
+            data-sal={"slide-right"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
@@ -55,7 +51,7 @@ const Project = () => {
                 <br/><br/><a href="https://www.unibeniconaward.netlify.app"><button>View Live</button></a>
             </div>
             <div className="project-img"
-            data-sal={salLeft}
+            data-sal={"slide-left"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
@@ -68,7 +64,7 @@ const Project = () => {
         </article>   
         <article className="project">
             <div className="project-info"
-            data-sal={salRight}
+            data-sal={"slide-right"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
@@ -80,7 +76,7 @@ const Project = () => {
                 <br/><br/><a href="https://www.bggm.co.uk"><button>View Live</button></a>
             </div>
             <div className="project-img"
-            data-sal={salLeft}
+            data-sal={"slide-left"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
