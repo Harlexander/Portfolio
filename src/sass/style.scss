@@ -1,0 +1,269 @@
+$color-gradient : linear-gradient(135deg,#02aab0,#00cdac);
+$primary-color : #02aab0;
+$secondary-color : rgb(30, 27, 32);
+$theme1 : white;
+$font : -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+.landing-page{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: $theme1;
+    padding: 0 40px;
+    font-family: $font;
+    text: {
+        align : center;
+    }
+    font : {
+        weight : bold;
+        size: 2.3rem;
+    }
+    color: $secondary-color;
+    height: 100vh;
+}
+
+button{
+        display: inline-block;
+        padding: 7px 15px;
+        background: transparent;
+        font-size: 1.3rem;
+    }
+
+.landing-page {
+    .name {
+        color: $primary-color;
+        text-transform: uppercase;
+    }
+    button{
+        color: $primary-color;
+        border: 3px solid $primary-color;
+    }
+    button:hover{
+        color: $theme1;
+        background-color: $primary-color;
+    }
+
+}
+
+.about-page{
+    background: $color-gradient;
+    padding: 60px 20px;
+    color: $theme1;
+    font-family: $font;
+
+    main{
+     display: flex column;
+    }
+    .img {
+        flex: 50%;
+    }
+    .text{
+        flex: 50%;
+    }
+    button{
+        color: $theme1;
+        border: 3px solid $theme1;
+    }
+}
+
+.project-page{
+    background: $theme1;
+    padding: 60px 20px;
+    color: $secondary-color;
+    font-family: $font;
+
+    button{
+        color: $primary-color;
+        border: 3px solid $primary-color;
+    }
+    .project{
+        margin-bottom: 90px;
+    }
+    .project-info{
+        margin: 25px 0;
+    }
+    .project-img{
+        margin : 10px 0;
+        box-shadow : 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+    .tech{
+        font-size: 1.7rem;
+        padding: 3px 8px;
+    }
+    .bootstrap{
+        color: purple;
+    }
+    .sass{
+        color: purple;
+    }
+    .react{
+        color: rgb(0, 100, 200);
+    }
+    .html{
+        color: orangered;
+    }
+    .css{
+        color: rgb(0, 100, 180);
+    }
+}
+.contact-page{
+    background: $color-gradient;
+    padding: 80px 20px;
+    font-family: $font;
+    header{
+        color: white;
+    }
+    div{
+        padding: 0 20px;
+        text-align: center;
+        p{
+            font-size: 1.5rem;
+            color: $theme1;
+        }
+        button{
+            color: $theme1;
+            border: 3px solid $theme1;
+        }
+    }
+}
+.footer-page{
+    background: #222;
+    padding: 40px 20px;
+    text-align: center;
+
+    .arrow{
+        font-size: 1.6rem;
+        padding: 20px;
+        color: $theme1;
+    }
+    div{
+        display: flex;
+        justify-content: space-around;
+        .fa{
+            font-size: 1.7rem;
+            padding: 10px;
+            color: $theme1;
+        }
+       }
+    hr{
+        width: 40%;
+        color: #555;
+    }
+    p{
+        color: #555;
+    }
+}
+header{
+    text-align : center;
+    font-weight: bold;
+    font-size: 1.9rem;
+    color: $secondary-color;
+    padding-bottom: 30px;
+
+}
+
+@media screen and (min-width : 763px) {
+    .landing-page{
+        padding: 0 120px;
+        font : {
+            size: 3.1rem;
+        }
+        text-align: left;
+    }
+    header{
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: $secondary-color;
+        padding-bottom: 60px;
+    
+    }
+    .about-page{
+        main{
+         display: flex;
+         padding: 0 300px;
+        }
+        .img {
+            flex: 50%;
+        }
+        .text{
+            flex: 50%;
+            font-size: 1.3rem;
+        }
+        button{
+            color: $theme1;
+            border: 3px solid $theme1;
+        }
+    }
+    .project-page{
+        background: $theme1;
+        padding: 60px 20px;
+        color: $secondary-color;
+        font-family: $font;
+    
+        button{
+            color: $primary-color;
+            border: 3px solid $primary-color;
+        }
+        .project{
+            margin-bottom: 90px;
+            display: flex;
+            padding: 0 2.8rem;
+        }
+        .project-info{
+            margin: 25px 0;
+            flex: 35%;
+            font-size: 1.5rem;
+            padding: 0 50px;
+            p{
+                color: #666;
+            }
+        }
+        .project-img{
+            flex: 65%;
+            margin : 10px 0;
+            box-shadow : 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        }
+    }
+    .contact-page{
+        padding: 130px 0;
+            header{
+                font-size: 2.9rem;
+            }div{
+            padding: 0 20px;
+            text-align: center;
+            
+            p{
+                font-size: 1.9rem;
+                color: $theme1;
+            }
+            button{
+                color: $theme1;
+                border: 4px solid $theme1;
+                font-size: 1.9rem;
+            }
+        }
+    }
+    .footer-page{
+        padding: 150px 60px;
+        .arrow{
+            font-size: 1.9rem;
+            padding: 20px;
+            color: $theme1;
+        }
+        div{
+            justify-content: center;
+            .fa{
+                font-size: 1.9rem;
+                padding: 15px;
+                color: $theme1;
+            }
+           }
+        hr{
+            width: 20%;
+            color: #555;
+        }
+        p{
+            color: #555;
+        }
+    }
+}
