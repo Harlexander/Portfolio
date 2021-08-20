@@ -31,9 +31,12 @@ const About = () => {
         data-sal-easing="ease-in"
         data-sal-duration="700"
         className="text">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+         <p>My name is Dunkwu Alexander an IT specialist, with prior experience in web and app development.</p>
+
+        <p>I am a college graduand and  currently running my B.sc Programme in Taxation, In the University Of Benin.</p>
+
+        <p>With 3 years of experience in programming i have worked with the latest technologies to build software solutions that are currently in use. My major focus as been on frontend technologies and frameworks like React, Gatsby and so on. This portfolio is just go give you an overwiew of my skills in web development
+        </p>
         <button>Resume</button>
         </div>  
         </main>
