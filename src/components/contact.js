@@ -5,7 +5,7 @@ const Contact = () => {
     let width
     const isBrowser = () => typeof window !== "undefined"
     isBrowser() && (width = window.innerWidth);
-    const [salRight, salLeft] = [width < 768 ? "slide-up" : "slide-right", width < 768 ? "slide-up" : "slide-left" ]
+    const [salRight, salLeft] = [width < 768 ? "slide-up" : "slide-up", width < 768 ? "slide-up" : "slide-left" ]
   
   return (
     <section className="contact-page">
@@ -15,7 +15,7 @@ const Contact = () => {
          data-sal-easing="ease-in"
          data-sal-duration="700">CONTACT</header>
         <div>
-        <p data-sal={"slide-right"}
+        <p data-sal={"slide-up"}
          data-sal-delay="200"
          data-sal-easing="ease-in"
          data-sal-duration="700">Would you like to work with me? Awesome!</p>

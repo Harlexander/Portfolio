@@ -12,7 +12,7 @@ const Project = () => {
          data-sal-duration="700">PROJECTS</header>
         <article className="project">
             <div className="project-info"
-             data-sal="slide-right"
+             data-sal="slide-up"
              data-sal-delay="100"
              data-sal-easing="ease-in"
              data-sal-duration="700">
@@ -25,7 +25,7 @@ const Project = () => {
                 
             </div>
             <div className="project-img"
-             data-sal={"slide-left"}
+             data-sal={"slide-up"}
              data-sal-delay="100"
              data-sal-easing="linear"
              data-sal-duration="500">
@@ -39,7 +39,7 @@ const Project = () => {
         </article>   
         <article className="project">
             <div className="project-info"
-            data-sal={"slide-right"}
+            data-sal={"slide-up"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
@@ -51,7 +51,7 @@ const Project = () => {
                 <br/><br/><a href="https://www.unibeniconaward.netlify.app"><button>View Live</button></a>
             </div>
             <div className="project-img"
-            data-sal={"slide-left"}
+            data-sal={"slide-up"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
@@ -64,7 +64,7 @@ const Project = () => {
         </article>   
         <article className="project">
             <div className="project-info"
-            data-sal={"slide-right"}
+            data-sal={"slide-up"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
@@ -76,7 +76,7 @@ const Project = () => {
                 <br/><br/><a href="https://www.bggm.co.uk"><button>View Live</button></a>
             </div>
             <div className="project-img"
-            data-sal={"slide-left"}
+            data-sal={"slide-up"}
             data-sal-delay="100"
             data-sal-easing="ease-in"
             data-sal-duration="700">
