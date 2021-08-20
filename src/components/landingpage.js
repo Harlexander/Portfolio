@@ -1,7 +1,9 @@
 import * as React from "react"
 
 const LandingPage = () => {
-    const width = window.innerWidth;
+    let width
+    const isBrowser = () => typeof window !== "undefined"
+    isBrowser() && (width = window.innerWidth);
     const sal = width < 768 ? "slide-up" : "slide-right"
   
   return (

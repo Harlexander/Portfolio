@@ -2,7 +2,9 @@ import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 
 const Contact = () => {
-    const width = window.innerWidth;
+    let width
+    const isBrowser = () => typeof window !== "undefined"
+    isBrowser() && (width = window.innerWidth);
     const [salRight, salLeft] = [width < 768 ? "slide-up" : "slide-right", width < 768 ? "slide-up" : "slide-left" ]
   
   return (
